@@ -1,0 +1,115 @@
+{
+  "workbench.editor.showTabs": true,
+  "workbench.colorTheme": "Default Light+",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.codeLens": false,
+  "editor.rulers": [],
+  "editor.tabSize": 4,
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#00FD61"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.minimap.maxColumn": 100,
+  "dart.flutterSdkPath": "/Users/zhangzheng/fluttersdk/flutter",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "dart.openDevTools": "flutter",
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    "*.uxml": "xml",
+    "*.uss": "css"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.renderWhitespace": "all",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "prettier.trailingComma": "none",
+  "prettier.arrowParens": "avoid",
+  // "minapp-vscode.prettier": {
+  //   "useTabs": false,
+  //   "tabWidth": 2,
+  //   "printWidth": 100,
+  //   "singleQuote": false
+  // },
+  // "vetur.format.defaultFormatterOptions": {
+  //   "prettier": {
+  //     // 不加分号
+  //     "semi": false,
+  //     // 用单引号
+  //     "singleQuote": true,
+  //     // 禁止随时添加逗号
+  //     "trailingComma": "none"
+  //   }
+  // },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.pyc": "default"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "i18n-ally.localesPaths": [
+    "**/src/locales",
+  ],
+  "i18n-ally.enabledParsers": [
+    "js",
+    "json"
+  ],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.sourceLanguage": "zh-cn",
+  "i18n-ally.displayLanguage": "zh-Hans",
+  "i18n-ally.dirStructure": "auto",
+  "i18n-ally.enabledFrameworks": [
+    "vue"
+  ],
+  "i18n-ally.annotationInPlace": false,
+  "i18n-ally.extract.targetPickingStrategy": "most-similar",
+  "i18n-ally.theme.annotation": "red",
+  "i18n-ally.ignoredLocales": [],
+  "i18n-ally.includeSubfolders": false,
+  "i18n-ally.refactor.templates": [],
+}

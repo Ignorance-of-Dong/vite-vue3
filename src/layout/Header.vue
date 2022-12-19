@@ -12,11 +12,14 @@
       v-else
       @click="handleToggleAside"
     ></fish-button-icon>
+    <div class="spacer"></div>
+    <select-language />
   </el-header>
 </template>
 
 <script setup lang="ts">
 import { useAsideStore } from "@/stores/aside";
+import SelectLanguage from "./SelectLanguage.vue";
 
 const asideStore = useAsideStore();
 const handleToggleAside = () => {

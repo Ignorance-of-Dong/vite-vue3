@@ -5,6 +5,7 @@
     "src/**/*",
     "src/**/*.vue",
     "src/**/*.ts",
+    "src/**/*.json",
     "auto-imports.d.ts"
   ],
   "exclude": [

@@ -1,5 +1,5 @@
 <template>
-  <div>11</div>
+  <div>{{ $t("dashboard") }}</div>
 </template>
 
 <script setup lang="ts"></script>
