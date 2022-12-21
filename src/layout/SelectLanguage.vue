@@ -1,10 +1,3 @@
-<!--
- * @Author: xiaowei
- * @Date: 2022-08-25 18:34:16
- * @LastEditors: xiaowei
- * @LastEditTime: 2022-12-01 11:44:52
- * @Description: 
--->
 <template>
   <el-dropdown
     trigger="click"
@@ -66,7 +59,6 @@ const handleSwitchLanguage = (lang) => {
   }
 }
 .flag-img {
-  // border-radius: 50%;
   width: 29px;
   height: 20px;
   border: 1px #ddd solid;
