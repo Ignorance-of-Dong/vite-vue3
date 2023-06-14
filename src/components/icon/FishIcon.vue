@@ -8,7 +8,7 @@
 withDefaults(
   defineProps<{
     iconfont?: string;
-    size?: string;
+    size?: string | number;
     elementIcon: string;
   }>(),
   {

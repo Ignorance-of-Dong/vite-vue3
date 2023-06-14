@@ -1,10 +1,3 @@
-<!--
- * @Author: xiaowei
- * @Date: 2022-08-12 11:38:20
- * @LastEditors: xiaowei
- * @LastEditTime: 2022-12-05 11:49:46
- * @Description: Icon按钮
--->
 <template>
   <el-button link @click="handleClick" :disabled="disabled" :type="color">
     <el-tooltip
